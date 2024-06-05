@@ -1,6 +1,6 @@
 :root {
-  --branding-colour: #6c63ff;
-  --secondary-colour: #f9f7fe;
+  --branding-colour: rgba(252, 4, 4, 0.398);
+  --secondary-colour: #f8f5e2c7;
   --heading-font-family: "Playfair Display", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -176,11 +176,11 @@ input[type="submit"]:hover {
   width: 560px;
 }
 
-.about-image {
-  width: 430px;
-  height: 560px;
-  border-radius: 4px;
-  margin-top: 20px;
+.me-image {
+  width: 900px;
+  height: 320px;
+  border-radius: 12px;
+  margin-top: 140px;
 }
 
 .work-image {
