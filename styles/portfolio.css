@@ -76,7 +76,6 @@ a:hover {
   color: #857fff;
 }
 
-/*Contact Form*/
 input[type="text"],
 select,
 textarea {
@@ -113,7 +112,6 @@ input[type="submit"]:hover {
   background-color: var(--secondary-colour);
   padding: 20px;
 }
-/*End of Contact Form*/
 
 .hero {
   background-color: var(--secondary-colour);
@@ -168,12 +166,12 @@ input[type="submit"]:hover {
 
 .index-image {
   width: 560px;
-  height: 560px;
+  height: 500px;
   margin-top: 40px;
   border-radius: 4px;
 }
 
-.dictionary-index-image {
+.haiku-index-image {
   height: 500px;
   width: 560px;
 }
