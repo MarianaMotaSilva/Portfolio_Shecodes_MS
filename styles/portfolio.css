@@ -1,0 +1,313 @@
+:root {
+  --branding-colour: #6c63ff;
+  --secondary-colour: #f9f7fe;
+  --heading-font-family: "Playfair Display", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li a.active {
+  color: var(--branding-colour);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--branding-colour);
+}
+
+a:hover {
+  text-decoration: none;
+  color: #857fff;
+}
+
+/*Contact Form*/
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--branding-colour);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+form label {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--branding-colour);
+}
+
+input[type="submit"] {
+  background-color: var(--branding-colour);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #857fff;
+}
+
+.form-container {
+  border-radius: 5px;
+  background-color: var(--secondary-colour);
+  padding: 20px;
+}
+/*End of Contact Form*/
+
+.hero {
+  background-color: var(--secondary-colour);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.content-container {
+  padding: 60px 20px;
+}
+
+.content {
+  margin: 20px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.intro {
+  font-size: 24px;
+}
+
+.index-image {
+  width: 560px;
+  height: 560px;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+
+.dictionary-index-image {
+  height: 500px;
+  width: 560px;
+}
+
+.about-image {
+  width: 430px;
+  height: 560px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.work-image {
+  width: 560px;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.btn-branding {
+  background-color: var(--branding-colour);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #857fff;
+}
+
+.btn-branding-outline {
+  color: var(--branding-colour);
+  border: 1px solid var(--branding-colour);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  color: #857fff;
+  border: 1px solid #857fff;
+}
+
+.project-description {
+  padding: 90px 20px 0px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+footer {
+  margin: 100px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-colour);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-colour);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-colour);
+  background-color: var(--secondary-colour);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: #857fff;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .email-col {
+    margin-top: 50px;
+  }
+
+  footer .email-link {
+    font-size: 20px;
+  }
+
+  .contact-insta {
+    padding-top: 20px;
+  }
+
+  .container {
+    margin-top: 80px;
+  }
+}
