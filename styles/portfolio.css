@@ -177,10 +177,10 @@ input[type="submit"]:hover {
 }
 
 .me-image {
-  width: 900px;
-  height: 320px;
+  width: 500px;
+  height: 300px;
   border-radius: 12px;
-  margin-top: 140px;
+  margin-top: 200px;
 }
 
 .work-image {
